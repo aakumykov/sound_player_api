@@ -27,6 +27,8 @@ public interface SoundPlayer {
     @Nullable
     Throwable getError();
 
+    void setError(@NonNull Throwable throwable);
+
     @Nullable
     SoundItem getCurrentItem();
 
